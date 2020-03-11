@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   cheapest_item = nil 
   cheapest_price = nil
-  name_hash.each do |name,  value
+  name_hash.each do |name,  value |
     if cheapest_price == nil ||  value< cheapest_price
        cheapest_price = value
        cheapest_item = name
